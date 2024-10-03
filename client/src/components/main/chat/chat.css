@@ -1,0 +1,173 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex:0.65;
+}
+
+
+
+.chat__header{
+    display: inherit;
+    padding: 20px;
+    align-items: center;
+    /* border-bottom: 1px solid lightgray;    */
+}
+.chat__headerInfo{
+    flex:1;
+    padding-left: 20px;
+}
+
+.chat__headerInfo>h3{
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+
+.chat__body{
+    flex:1;
+    padding: 30px;
+    overflow-y: scroll;
+}
+.chat__body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* .chat__body::-webkit-scrollbar-track {
+    background: #c91313;
+  } */
+  
+  .chat__body::-webkit-scrollbar-thumb {
+    /* background: #1e136c; */
+    border-radius: 5px;
+  }
+  
+  /* .derrick::-webkit-scrollbar-thumb:hover {
+    background: #7da014;
+  } */
+
+.chat__message{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    /* background-color: #ffffff; */
+    margin-bottom: 15px;
+    word-break: keep-all;
+}
+
+.chat__sender{
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+/* .dark__theme3__info{} */
+
+.chat__timestamp{
+    margin-left: 10px;
+    font-size: xx-small;
+}
+
+.chat__name {
+    position: absolute;
+    font-weight: 800;
+    top:-15px;
+    font-size: xx-small;
+}
+
+.chat__footer{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    /* border-top: 1px solid lightgray; */
+}
+
+
+
+.chat__footer> form{
+    display: inherit;
+    flex:1;
+}
+
+.chat__footer>  form > input{
+    flex:1;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    outline-width: 0;
+}
+
+
+.chat__footer> form > button{
+    display: none;
+}
+
+.chat__footer> .MuiSvgIcon-root{
+    padding: 10px;
+}
+
+/* THEMES */
+.light__theme3__info>p{
+    color:gray;
+}
+
+.light__theme3__body{
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+}
+.light__theme3__message{
+    background-color: white;
+}
+
+.dark__theme3{
+    background-color: #36454F;
+    /* color:#808992; */
+    color:white;
+}
+
+.dark__theme3__info>p{
+    color:lightgray;
+}
+.dark__theme3__info>button>.MuiSvgIcon-root{
+color: lightgray;
+}
+.dark__theme3__body{
+    background-image: url("https://i.pinimg.com/1200x/85/ec/df/85ecdf1c3611ecc9b7fa85282d9526e0.jpg");
+        background-repeat: repeat;
+        background-color: black;
+    background-position: center;
+}
+.dark__theme3__message{
+background-color: lightslategray;
+}
+.dark__theme3__name{
+    color: lightgray;
+}
+
+.meeeee{
+    background-color: #36454F;
+    /* background-color: #808992; */
+
+
+}
+
+.meeeee>.MuiSvgIcon-root{
+    color: lightgray;
+
+}
+
+.yie>.MuiSvgIcon-root{
+    color: grey;
+}
+
+.meeeee>form>input::placeholder{
+    background-color:  transparent;;
+}
+
+.meeeee>form>input{
+    background-color: lightgray;
+}
+/* .dark__theme3__footer>.MuiSvgIcon-root{
+    color: red;
+} */
+
+
